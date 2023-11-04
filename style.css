@@ -1,0 +1,695 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: none;
+}
+
+/* ======================================================================================================== */
+/* ===============================================Nav Bar=================================================  */
+
+body{
+    background-color: #f3f3f3;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color:#eeeeee;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-right: 10%;
+    padding-bottom: 16px;
+    padding-left: 70px;
+    margin-top: 9px;
+    position: sticky;
+   top: 0px;
+   box-shadow: 0 1px 1px 0.5px rgba(0, 0, 0, 0.288);
+    
+}
+ nav h2{
+    color: chocolate;
+    font-size: 25px;
+    font-family: cursive;
+}
+nav ul{
+    display: flex;
+}
+nav ul{
+    margin-left: 100px;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    justify-content: flex-end;
+    padding: 10px 38px;
+    
+}
+nav ul li a{
+    color: #222121;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+nav ul li a:hover{
+    color: rgba(221, 6, 60, 0.87);
+    transition: all ease 0.3s;
+    border: 2px solid rgba(221, 6, 60, 0.87) ;
+    border-radius: 8px;
+}
+.active a{
+    color:rgba(221, 6, 60, 0.87) ;
+}
+.btn1 button{
+    background-color: chocolate;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 12px 30px;
+    border-radius: 30px;
+    transition: 0.4s;  
+}
+
+.btn1 button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+
+/* =========================================================================================================== */
+/* =================================================About section============================================= */
+
+.about{
+    border-radius: 3px;
+    width: 500px;
+    height: 400px;
+    margin-top: 60px;
+    margin-left: 165px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about h2{
+    padding: 17px 20px;
+    align-self: flex-start;
+    font-size: 30px;
+}
+.about h2 span{
+    color: #034f66;
+    font-size: 30px;
+
+}
+.about p{
+    padding:0px 20px;
+    line-height: 1.9;
+    font-size: 20px;
+}
+.primary{
+    display: flex;
+}
+
+.image{
+    width: 400px;
+    background-image: url(/Images/IMG_9569.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: 2px dashed rgb(2, 94, 110);
+    background-position: top;
+    margin-left: 90px;
+    margin-top: 61px;
+    border-radius: 6px;
+}
+.image:hover{
+    cursor:progress;
+}
+
+.information button{
+    padding: 4px 6px;
+    margin: 20px 20px;
+    border-radius: 8px;
+    transition: 0.4s;
+    background-color: chocolate;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+    /* ======================================================================================================= */
+    /* ==========================================About me section============================================= */
+.about-me{
+    width: 100%;
+    height:350px ;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e6e5e5;
+}
+.about-me h2{
+    color: #034f66;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    line-height: 2.05;
+}
+.about-me p{
+    line-height: 2.05;
+    font-size: 20px;
+    
+}
+.about-me button a{
+    text-decoration: none;
+    color: #222121;
+}
+.about-me button{
+    padding: 8px 10px;
+    margin-top: 25px;
+    border-radius: 2px;
+}
+
+/* ============================================================================================================== */
+/* ==================================================Services==================================================== */
+.services{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
+.services h2 {
+    text-align: center;
+    color: #034f66;
+    font-weight: bold;
+    margin-top:55px ;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 60px;
+  }
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+    /* ________________________________________Card_1_______________________________________________ */
+.card1{
+    margin-right:100px ;
+    height: 400px;
+    width: 300px;
+    border-radius: 7px;
+    background-color: #e6e5e5;
+    box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.151);
+    transition: all ease 0.3s;
+}
+
+.card1 span i{
+    font-size: 50px;
+    color: #034f66;
+    margin-top: 12px;
+    padding-left:120px ;
+}
+.card1 span h2{
+    color: #222121;
+    margin-top: 12px;
+    font-size: 30px;
+    padding-bottom: none;
+}
+.card1  p{
+    color: #222121;
+    word-spacing: 8px;
+    font-size: 20px;
+    padding-left:20px;
+    margin-top: -20px;
+}
+#Web-btn {
+    padding: 10px 20px;
+    text-decoration: none;
+   margin-left: 90px;
+   margin-top: 20px;
+   border: 1px solid rgb(68, 68, 68);
+   border-radius: 3px;
+   transition: all ease 0.2s;
+}
+
+#Web-btn:hover{
+    background-color: #c2c2c2;
+    cursor: pointer;
+    border: 1px solid rgb(9, 49, 136);
+    
+}
+
+
+.card1:hover{
+    transform: scale(1.04);
+    box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.151);
+}
+
+
+/* ___________________________________________card_2____________________________________________ */
+.card2{
+    margin-right:100px ;
+    height: 400px;
+    width: 300px;
+    border-radius: 7px;
+    background-color: #e6e5e5;
+    box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.151);
+    transition: all ease 0.3s;
+}
+.card2 span i{
+    font-size: 50px;
+    color: #034f66;
+    padding-left:120px ;
+}
+.card2 span h2{
+    color: #222121;
+    margin-top: 12px;
+    font-size: 30px;
+    padding-bottom: none;
+}
+.card2  p{
+    word-spacing: 8px;
+    color: #222121;
+    font-size: 20px;
+    padding-left:20px;
+    margin-top: -20px;
+}
+#grafhic-btn {
+    padding: 10px 20px;
+    text-decoration: none;
+   margin-left: 90px;
+   margin-top: 20px;
+   border: 1px solid rgb(68, 68, 68);
+   border-radius: 3px;
+   transition: all ease 0.2s;
+}
+
+#grafhic-btn:hover{
+    background-color: #c2c2c2;
+    cursor: pointer;
+    border: 1px solid rgb(9, 49, 136);
+
+    
+}
+
+
+.card2:hover{
+    transform: scale(1.04);
+    box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.151);
+}
+
+/* ______________________________________________card_3_______________________________________________________ */
+.card3{
+    height: 400px;
+    width: 300px;
+    border-radius: 7px;
+    background-color: #e6e5e5;
+    box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.151);
+    transition: all ease 0.3s;
+}
+.card3 span i{
+    font-size: 50px;
+    color: #034f66;
+    padding-left:120px ;
+}
+.card3 span h2{
+    color: #222121;
+    margin-top: 12px;
+    font-size: 30px;
+    padding-bottom: none;
+}
+.card3  p{
+    color: #222121;
+    font-size: 20px;
+    padding-left:20px;
+    margin-top: -20px;
+    word-spacing: 8px;
+}
+#website-btn {
+    padding: 10px 20px;
+    text-decoration: none;
+   margin-left: 90px;
+   margin-top: 20px;
+   border: 1px solid rgb(68, 68, 68);
+   border-radius: 3px;
+   transition: all ease 0.2s;
+}
+#website-btn:hover{
+    background-color: #c2c2c2;
+    cursor: pointer;
+    border: 1px solid rgb(9, 49, 136);
+}
+
+.card3:hover{
+    transform: scale(1.04);
+    box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.151);
+}
+
+
+
+/* ========================================================================================================== */
+/* =================================================Skill============================================ */
+
+section{
+    margin-top:62px ;
+}
+section h2{
+    color: #096683;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+.main-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 52px;
+
+}
+
+/* ==============================================box1===================================================== */
+
+
+.box1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 155px;
+    background-color: rgb(190, 59, 11);
+    border-radius: 6px;
+    padding-right: 20px;
+    margin-right: 20px;
+    transition: all ease 0.3s;
+}
+.box1 .html-icon i{
+    font-size: 50px;
+    padding-bottom: 22px;
+    color: #ffff;
+}
+.box1 .html-heading h3{
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.box1:hover{
+    transform: translateY(-12px);
+    cursor: pointer;
+}
+/* =============================================box2========================================================== */
+
+.box2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 155px;
+    background-color: rgb(12, 55, 146);
+    border-radius: 6px;
+    margin-right: 20px;
+    transition: all ease 0.3s;
+}
+.box2 .css-icon i{
+    font-size: 50px;
+    padding-bottom: 22px;
+    color: #ffff;
+}
+.box2 .css-heading h3{
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.box2:hover{
+    transform: translateY(-12px);
+    cursor: pointer;
+}
+/* ===========================================box3==================================================== */
+.box3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 155px;
+    background-color: rgb(182, 137, 14);
+    border-radius: 6px;
+    margin-right: 20px;
+    transition: all ease 0.3s;
+}
+.box3 .java-icon i{
+    font-size: 50px;
+    padding-bottom: 22px;
+    color: #ffff;
+}
+.box3 .java-heading h3{
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.box3:hover{
+    transform: translateY(-12px);
+    cursor: pointer;
+}
+
+/* __________===========================box4====================================__________ */
+
+.box4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 155px;
+    background-color: rgb(37, 83, 114);
+    border-radius: 6px;
+    margin-right: 20px;
+    transition: all ease 0.3s;
+}
+.box4 .react-icon i{
+    font-size: 50px;
+    padding-bottom: 22px;
+    color: #ffff;
+}
+.box4 .react-heading h3{
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.box4:hover{
+    transform: translateY(-12px);
+     cursor: pointer;
+}
+/*=============================================box5============================================== */
+
+.box5{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 155px;
+    background-color: rgb(133, 35, 125);
+    border-radius: 6px;
+    margin-right: 20px;
+    transition: all ease 0.3s;
+}
+.box5 .php-icon i{
+    font-size: 50px;
+    padding-bottom: 22px;
+    color: #ffff;
+}
+.box5 .php-heading h3{
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.box5:hover{
+    transform: translateY(-12px);
+    cursor: pointer;
+}
+/* ___________________________________________box6____________________________________________________ */
+
+
+
+.box6{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 155px;
+    background-color: rgb(216, 70, 94);
+    border-radius: 6px;
+    margin-right: 20px;
+    transition: all ease 0.3s;
+}
+.box6 .laravel-icon i{
+    font-size: 50px;
+    padding-bottom: 22px;
+    color: #ffff;
+}
+.box6 .laravel-heading h3{
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.box6:hover{
+    transform: translateY(-12px);
+    cursor: pointer;
+}
+
+/* =========================================My profolio============================================ */
+
+.porfolio{
+    background-color: #e6e5e5;
+    margin-top: 52px;
+}
+.porfolio h2{
+    color: #0b4a74;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 52px;
+    padding-bottom: 32px;
+}
+.porfolio p{
+    padding: 30px 170px;
+    padding-bottom: 52px;
+    font-size: 20px;
+    line-height: 30px;
+    word-spacing: 5px;
+}
+/* ____________________projects____________________________ */
+
+.contanier{
+    margin-top: 30px;
+    display: grid;
+    gap: 40px;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 380px 380px 380px;
+    grid-template-rows: 260px 260px ;
+}
+.item{
+    background-color: white !important;
+    transition: all ease 0.3s;
+}
+.item h3{
+    text-align: center;
+    color: rgb(37, 84, 172);
+    margin-top: 25px;
+}
+ 
+
+.item:hover{
+    transform:translateY(6px);
+} 
+
+/* ________________________footer__________________ */
+.main-footer{
+    margin-top: 50px;
+    background-color: #e0e0e0;
+}
+.footer1{
+    display: grid;
+    align-content: center;
+    gap: 20px;
+    grid-template-columns: 500px 200px 200px 350px;
+    grid-template-rows:200px   ;
+}
+
+.footer-contant{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.footer-contant h2{
+    font-weight: 600;
+    color: #034f66;
+    padding: 12px 12px;
+}
+.footer-contant p{
+    padding: 12px 12px;
+    line-height: 25px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 41px;
+}
+.links h2{
+    color: #034f66;
+    padding:0px 12px  ;
+    padding-bottom: 22px;
+
+}
+.links  a{
+    text-decoration: none;
+    color: black;
+    line-height: 25px; 
+    padding:0px 12px  ;
+    transition: all ease 0.2s;
+}
+.links  a:hover{
+    cursor: pointer;
+    color: #0d6aa8;
+}
+
+.wqr{
+    margin-top: 40px;
+   
+}
+
+.wqr h2{
+    color: #034f66;
+    padding-left: 12px;
+}
+.wqr p{
+    margin-top: 23px;
+    text-transform: capitalize;
+    line-height: 25px; 
+
+}
+
+/* _______________________icons______________________ */
+
+.icons{
+    background-color: #c0c0c0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    margin-right: 22px;
+    padding: 12px 0px;
+}
+.icon i{
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+#facebook{
+    margin-left: 52px;
+}
+
+.copyright{
+    position:absolute;
+    left: 2px;
+    bottom: 12px;
+}

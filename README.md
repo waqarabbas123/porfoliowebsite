@@ -1,2 +1,2 @@
-this is my frist porfolio website using html and css only.
-
+In this repository it hava a simple webiste.
+This is my frist website using html and css only

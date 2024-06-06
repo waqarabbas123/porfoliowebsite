@@ -1,4 +1,3 @@
 #Responsive Navbar.
 
-In this repository it hava a simple webiste.
-This is my frist website using html and css only
+in thie repository i will make my frist clone website.

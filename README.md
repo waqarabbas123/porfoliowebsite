@@ -1,3 +1,1 @@
-#Responsive Navbar.
-
-in thie repository i will make my frist clone website.
+In this reposiotry i can make a clone webiste using html and css.

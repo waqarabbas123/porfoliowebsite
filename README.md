@@ -1,1 +1,2 @@
-In this reposiotry we can make a website using html and css only.
+in this repository we can make a portfolio website using html css  
+it is simple landing page just using html and css .
